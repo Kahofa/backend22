@@ -44,10 +44,10 @@ public class AppService {
                     removeTask();
                     break;
                 case 5:
-                    System.out.println("🚪 Выход...");
+                    System.out.println("Выход...");
                     return;
                 default:
-                    System.out.println("❌ Неверный выбор!");
+                    System.out.println("Неверный выбор!");
             }
         }
     }
@@ -64,7 +64,7 @@ public class AppService {
     }
 
     private void showTasks() {
-        System.out.println("\n📜 Список задач:");
+        System.out.println("\nСписок задач:");
         defaultTaskService.showTasks();
     }
 
