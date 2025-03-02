@@ -1,6 +1,5 @@
 package org.example;
 
-import org.example.model.Task;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
